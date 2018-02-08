@@ -5,6 +5,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,7 +19,10 @@ public class LoginSection {
 
   @Before
   public void setUp() throws Exception {
-    wd = new FirefoxDriver();
+    ChromeOptions options = new ChromeOptions();
+    options.addArguments("start-fullscreen");
+
+    wd = new ChromeDriver(options);
     wait = new WebDriverWait(wd, 10);
   }
 
