@@ -20,7 +20,7 @@ public class Odessa {
     }
     
     @Test
-    public void Odessa() {
+    public void odessaMama() {
         sss.get("https://www.google.com.ua/");
         sss.findElement(By.id("gs_ok0")).click();
         sss.findElement(By.id("K32")).click();
