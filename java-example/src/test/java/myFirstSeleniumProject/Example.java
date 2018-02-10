@@ -20,11 +20,15 @@ public class Example {
 
   @Test
   public void task(){
-    driver.get("http://localhost/litecart/en/");
-    //System.out.println(driver.findElement(By.xpath("//button[@class='btn btn-default'][@name='login']"))
-            //.getAttribute("assignedSlot"));
-    driver.findElement(By.xpath("//input[@name='email']")).sendKeys("Hello buddy");
-    //System.out.println(driver.findElement(By.xpath("//input[@name='email']")).getAttribute("value"));
-    System.out.println(driver.findElement(By.xpath("//input[@name='email']")).getAttribute("value"));
+    driver.navigate().to("http://localhost/litecart/admin/login.php");
+    driver.findElement(By.name("remember_me")).click();
+    System.out.println(driver.findElement(By.name("remember_me")).isSelected());
+  }
+
+  @Test
+  public void task2(){
+    driver.navigate().to("http://localhost/litecart");
+    System.out.println(driver.findElement(By.cssSelector("a.logotype")).isDisplayed());
+    System.out.println(driver.findElement(By.cssSelector("a.logotype")).isEnabled());
   }
 }
