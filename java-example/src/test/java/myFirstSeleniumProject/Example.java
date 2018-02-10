@@ -1,5 +1,6 @@
 package myFirstSeleniumProject;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -30,5 +31,11 @@ public class Example {
     driver.navigate().to("http://localhost/litecart");
     System.out.println(driver.findElement(By.cssSelector("a.logotype")).isDisplayed());
     System.out.println(driver.findElement(By.cssSelector("a.logotype")).isEnabled());
+  }
+
+  @After
+  public void finish(){
+    driver.quit();
+    driver = null;
   }
 }

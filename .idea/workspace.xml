@@ -59,11 +59,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Example.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Example.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="81" />
+            <state relative-caret-position="775">
+              <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetText.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/GetText.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="28" column="102" lean-forward="false" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/NewUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="39" column="85" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="39" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -448,6 +468,7 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AdminPanel.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/UniqueSticker.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Example.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/GetText.java" />
       </list>
     </option>
   </component>
@@ -545,32 +566,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Example.task2">
-    <configuration name="AdminPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="myFirstSeleniumProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
-      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.AdminPanel" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.GetText">
     <configuration name="Example" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -635,6 +631,31 @@
       <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.Example" />
       <option name="METHOD_NAME" value="task2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GetText" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="myFirstSeleniumProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
+      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.GetText" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
@@ -778,19 +799,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AdminPanel" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UniqueSticker" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Example" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Example.task" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Example.task2" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UniqueSticker" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Example" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Example.task" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Example.task2" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GetText" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Example.task2" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Example.task" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Example" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UniqueSticker" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AdminPanel" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GetText" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Example" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Example.task2" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Example.task" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UniqueSticker" />
       </list>
     </recent_temporary>
   </component>
@@ -808,35 +829,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Example - 2018.02.10 at 14h 35m 38s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 15h 55m 13s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 38m 34s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 15h 56m 47s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 39m 19s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 06m 45s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 41m 00s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 09m 40s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 41m 37s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 10m 10s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 43m 06s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 12m 18s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 43m 34s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 22m 45s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example - 2018.02.10 at 14h 44m 03s.xml">
-      <configuration name="Example" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 23m 28s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example_task - 2018.02.10 at 14h 44m 36s.xml">
-      <configuration name="Example.task" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 27m 17s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Example_task2 - 2018.02.10 at 14h 44m 52s.xml">
-      <configuration name="Example.task2" configurationId="JUnit" />
+    <history-entry file="GetText - 2018.02.10 at 16h 28m 08s.xml">
+      <configuration name="GetText" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -923,7 +944,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/OdessaMama.java" />
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Mulya.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1158,14 +1178,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/NewUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AdminPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1195,8 +1207,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="31" column="81" lean-forward="true" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="81" />
+        <state relative-caret-position="775">
+          <caret line="38" column="18" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/NewUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="39" column="85" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="39" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/GetText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="28" column="102" lean-forward="false" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
           <folding />
         </state>
       </provider>
