@@ -12,25 +12,30 @@ import java.util.concurrent.TimeUnit;
 public class GetText {
 
   WebDriver driver;
-  String l, m;
+  String l, m, k, s;
 
   @Before
-  public void start(){
-    driver=new FirefoxDriver();
+  public void start() {
+    driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
   }
 
   @Test
-  public void text(){
+  public void text() {
     driver.get("http://localhost/litecart/en/");
     driver.findElement(By.cssSelector("input.form-control[type=email]")).sendKeys("nona@gmail.com");
     driver.findElement(By.cssSelector("input.form-control[type=password]")).sendKeys("12345");
     driver.findElement(By.cssSelector("button.btn.btn-default[type=submit]")).click();
-    m=driver.findElement(By.xpath("//div[@id='box-account']//a[.='Edit Account']")).getCssValue("color");
+
+    m = driver.findElement(By.xpath("//div[@id='box-account']//a[.='Edit Account']")).getCssValue("color");
+    k = driver.findElement(By.xpath("//div[@id='box-account']//a[.='Edit Account']")).getCssValue("background-color");
+    s = driver.findElement(By.xpath("//div[@id='box-account']//a[.='Edit Account']")).getCssValue("border-color");
+
     driver.findElement(By.xpath("//div[@id='box-account']//a[.='Edit Account']")).click();
-    l=driver.findElement(By.cssSelector("input.form-control[name=firstname]")).getAttribute("value");
+    l = driver.findElement(By.cssSelector("input.form-control[name=firstname]")).getAttribute("value");
     System.out.println(l);
     System.out.println(m);
-
+    System.out.println(k);
+    System.out.println(s);
   }
 }
