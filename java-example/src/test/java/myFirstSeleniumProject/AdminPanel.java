@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class AdminPanel {
 
   WebDriver driver;
+  String l;
 
   @Before
 
@@ -35,8 +36,10 @@ public class AdminPanel {
 
     // left tag bar
     driver.findElement(By.xpath("//li[@id='app-']//span[.='Appearance']")).click();
+    System.out.println(l = driver.getTitle());
     driver.findElement(By.xpath("//li[@id='doc-template']//span[.='Template']")).click();
     driver.findElement(By.xpath("//li[@id='doc-logotype']//span[.='Logotype']")).click();
+    System.out.println(l = driver.getTitle());
     Assert.assertTrue(isElementPresent(By.xpath("//div/main/h1")));
   }
 
