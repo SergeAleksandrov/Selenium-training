@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -14,6 +15,7 @@ public class AdminPanel {
 
   WebDriver driver;
   String l;
+  String k, n, m;
 
   @Before
 
@@ -40,7 +42,19 @@ public class AdminPanel {
     driver.findElement(By.xpath("//li[@id='doc-template']//span[.='Template']")).click();
     driver.findElement(By.xpath("//li[@id='doc-logotype']//span[.='Logotype']")).click();
     System.out.println(l = driver.getTitle());
+    Assert.assertEquals("Logotype | My Store", l);
     Assert.assertTrue(isElementPresent(By.xpath("//div/main/h1")));
+    Assert.assertTrue(isElementPresent(By.cssSelector("button.btn.btn-default[name=save]")));
+    driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).getText();
+    driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).isEnabled();
+    driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).getSize();
+    Point screen = driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).getLocation();
+    k = driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).getCssValue("background");
+    n = driver.findElement(By.cssSelector("button.btn.btn-default[name=save]")).getAttribute("scrollWidth");
+
+    System.out.println(k);
+    System.out.println(n);
+    System.out.println(screen);
   }
 
   boolean isElementPresent(By locator) {
