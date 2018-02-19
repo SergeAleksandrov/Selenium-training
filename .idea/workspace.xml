@@ -49,8 +49,8 @@
       <file leaf-file-name="ArraySort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="636">
-              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="261">
+              <caret line="37" column="91" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -821,34 +821,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArraySort - 2018.02.19 at 13h 27m 11s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 29m 23s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 29m 52s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 30m 38s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 30m 59s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 32m 02s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 32m 21s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 33m 46s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ArraySort - 2018.02.19 at 13h 35m 00s.xml">
-      <configuration name="ArraySort" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArraySort - 2018.02.19 at 13h 39m 57s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 09m 37s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 18m 04s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 19m 08s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 32m 09s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 50m 51s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 53m 08s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 55m 02s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 56m 51s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraySort - 2018.02.19 at 14h 58m 13s.xml">
       <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1246,8 +1246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        <state relative-caret-position="261">
+          <caret line="37" column="91" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="91" />
           <folding />
         </state>
       </provider>

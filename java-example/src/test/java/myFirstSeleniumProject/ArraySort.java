@@ -30,9 +30,13 @@ public class ArraySort {
     driver.findElement(By.cssSelector("button.btn.btn-default[name=login]")).click();
 
     // the main part
-    k = driver.findElement(By.xpath("//main[@id='main']//a[.='Afghanistan']")).getText();
-    l = driver.findElement(By.xpath("//main[@id='main']//a[.='Åland Islands']")).getText();
-    m = driver.findElement(By.xpath("//main[@id='main']//a[.='Albania']")).getText();
+    k = driver.findElement(By.xpath("//div/main/form/table/tbody/tr[1]/td[5]/a")).getText();
+    l = driver.findElement(By.xpath("//div/main/form/table/tbody/tr[2]/td[5]/a")).getText();
+    m = driver.findElement(By.xpath("//div/main/form/table/tbody/tr[3]/td[5]/a")).getText();
+
+
+    String Str = new String("Добро пожаловать на ProgLang.su");  //  Замена элемента String
+    System.out.println("Итого: " + Str.replace('Д', 'Б'));
 
 
     Collator myCollator = Collator.getInstance();
@@ -40,9 +44,6 @@ public class ArraySort {
     if (j < 0)
     System.out.println(k + " greater than " + m);
     else System.out.println(m + " less than " + k);
-
-
-
   }
 }
 
