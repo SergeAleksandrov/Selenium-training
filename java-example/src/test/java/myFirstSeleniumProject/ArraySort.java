@@ -7,11 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.text.Collator;
 import java.util.concurrent.TimeUnit;
 
 public class ArraySort {
   WebDriver driver;
-  String l;
+  String k, l, m;
+  int j;
 
   @Before
   public void start(){
@@ -28,13 +30,20 @@ public class ArraySort {
     driver.findElement(By.cssSelector("button.btn.btn-default[name=login]")).click();
 
     // the main part
-    driver.findElement(By.xpath("//main[@id='main']//a[.='Afghanistan']")).getText();
-    driver.findElement(By.xpath("//main[@id='main']//a[.='Åland Islands']")).getText();
-    driver.findElement(By.xpath("//main[@id='main']//a[.='Albania']")).getText();
-    System.out.println(l);
+    k = driver.findElement(By.xpath("//main[@id='main']//a[.='Afghanistan']")).getText();
+    l = driver.findElement(By.xpath("//main[@id='main']//a[.='Åland Islands']")).getText();
+    m = driver.findElement(By.xpath("//main[@id='main']//a[.='Albania']")).getText();
+
+
+    Collator myCollator = Collator.getInstance();
+    j = myCollator.compare(k, m);
+    if (j < 0)
+    System.out.println(k + " greater than " + m);
+    else System.out.println(m + " less than " + k);
+
+
+
   }
-
-
 }
 
 

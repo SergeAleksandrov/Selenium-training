@@ -36,11 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="AdminPanel.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AdminPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="66" column="54" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="66" selection-end-column="54" />
+            <state relative-caret-position="590">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArraySort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="636">
+              <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -436,8 +446,8 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Example.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/GetText.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ElementSizeLocation.java" />
-        <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AdminPanel.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java" />
       </list>
     </option>
   </component>
@@ -548,7 +558,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AdminPanel">
+  <component name="RunManager" selected="JUnit.ArraySort">
     <configuration name="AdminPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -789,8 +799,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AdminPanel" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ArraySort" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArraySort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AdminPanel" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.ElementSizeLocation.location" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ElementSizeLocation.size" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ElementSizeLocation" />
@@ -811,35 +821,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 14m 00s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 27m 11s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 15m 12s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 29m 23s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 16m 23s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 29m 52s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 23m 25s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 30m 38s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 24m 18s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 30m 59s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 24m 52s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 32m 02s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 26m 02s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 32m 21s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 27m 26s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 33m 46s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 34m 21s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 35m 00s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AdminPanel - 2018.02.19 at 11h 35m 14s.xml">
-      <configuration name="AdminPanel" configurationId="JUnit" />
+    <history-entry file="ArraySort - 2018.02.19 at 13h 39m 57s.xml">
+      <configuration name="ArraySort" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1210,14 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Example.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="718">
@@ -1236,8 +1238,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AdminPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="66" column="54" lean-forward="true" selection-start-line="65" selection-start-column="63" selection-end-line="66" selection-end-column="54" />
+        <state relative-caret-position="590">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/ArraySort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="46" column="1" lean-forward="true" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
           <folding />
         </state>
       </provider>
