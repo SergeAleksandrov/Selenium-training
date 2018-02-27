@@ -21,6 +21,7 @@ public class CorrectPage {
   public void start() {
     driver = new ChromeDriver();
     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+    //wait = new WebDriverWait(driver, 30);
   }
 
   @Test
