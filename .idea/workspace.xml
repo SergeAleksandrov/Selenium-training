@@ -35,22 +35,22 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="CorrectPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/CorrectPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+              <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test33.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Test33.java">
+      <file leaf-file-name="AlertClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AlertClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+            <state relative-caret-position="461">
+              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -452,6 +452,7 @@
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/NewCustomerRegistration.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/CorrectPage.java" />
         <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Test33.java" />
+        <option value="$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AlertClass.java" />
       </list>
     </option>
   </component>
@@ -483,7 +484,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -537,8 +539,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -562,7 +563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test33">
+  <component name="RunManager" selected="JUnit.AlertClass">
     <configuration name="AdminPanel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -575,6 +576,31 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
       <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.AdminPanel" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="AlertClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="myFirstSeleniumProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
+      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.AlertClass" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -688,31 +714,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Test33" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="myFirstSeleniumProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
-      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.Test33" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -799,11 +800,11 @@
       <item index="1" class="java.lang.String" itemvalue="JUnit.AdminPanel" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.CorrectPage" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.NewCustomerRegistration" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Test33" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AlertClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Test33" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AlertClass" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.CorrectPage" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.NewCustomerRegistration" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ArraySort" />
@@ -825,35 +826,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CorrectPage - 2018.02.27 at 12h 06m 24s.xml">
-      <configuration name="CorrectPage" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 43m 14s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CorrectPage - 2018.02.27 at 12h 08m 26s.xml">
-      <configuration name="CorrectPage" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 44m 12s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 30m 58s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 45m 50s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 36m 18s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 51m 49s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 36m 51s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 52m 48s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 43m 21s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 53m 57s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 44m 11s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 55m 12s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 44m 56s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 56m 28s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 45m 24s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 57m 01s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Test33 - 2018.02.27 at 12h 45m 48s.xml">
-      <configuration name="Test33" configurationId="JUnit" />
+    <history-entry file="AlertClass - 2018.03.18 at 11h 57m 22s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -893,15 +894,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5714286" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29837838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1233,15 +1231,15 @@
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/CorrectPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/Test33.java">
+    <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AlertClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        <state relative-caret-position="461">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding />
         </state>
       </provider>
