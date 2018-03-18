@@ -49,9 +49,11 @@
       <file leaf-file-name="AlertClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AlertClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="41" column="96" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -826,18 +828,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlertClass - 2018.03.18 at 11h 43m 14s.xml">
-      <configuration name="AlertClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlertClass - 2018.03.18 at 11h 44m 12s.xml">
-      <configuration name="AlertClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlertClass - 2018.03.18 at 11h 45m 50s.xml">
-      <configuration name="AlertClass" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlertClass - 2018.03.18 at 11h 51m 49s.xml">
-      <configuration name="AlertClass" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlertClass - 2018.03.18 at 11h 52m 48s.xml">
       <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
@@ -854,6 +844,18 @@
       <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AlertClass - 2018.03.18 at 11h 57m 22s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertClass - 2018.03.18 at 12h 55m 03s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertClass - 2018.03.18 at 13h 42m 18s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertClass - 2018.03.18 at 13h 42m 53s.xml">
+      <configuration name="AlertClass" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlertClass - 2018.03.18 at 13h 43m 22s.xml">
       <configuration name="AlertClass" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1238,9 +1240,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/AlertClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="198">
+          <caret line="41" column="96" lean-forward="true" selection-start-line="41" selection-start-column="69" selection-end-line="41" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

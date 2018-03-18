@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.Thread.sleep;
+import java.lang.Object;
+import org.openqa.selenium.JavascriptExecutor;
 import static org.openqa.selenium.support.ui.ExpectedConditions.alertIsPresent;
 
 public class AlertClass {
@@ -37,6 +39,8 @@ public class AlertClass {
     System.out.println(l);
     Thread.sleep(5000);
     alert.dismiss();
+    ((JavascriptExecutor)driver).executeScript("window.open()");  // usage of JavaScript in Java
+
   }
 
     // Without wait
