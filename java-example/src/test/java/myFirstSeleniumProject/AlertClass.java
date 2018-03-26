@@ -37,10 +37,11 @@ public class AlertClass {
     Alert alert = wait.until(alertIsPresent());
     l = alert.getText();
     System.out.println(l);
-    Thread.sleep(5000);
+    Thread.sleep(2000);
     alert.dismiss();
     ((JavascriptExecutor)driver).executeScript("window.open()");  // usage of JavaScript in Java
-
+    ((JavascriptExecutor)driver).executeScript("window.open()");  // usage of JavaScript in Java
+    driver.getWindowHandles();
   }
 
     // Without wait
