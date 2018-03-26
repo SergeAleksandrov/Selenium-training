@@ -10,11 +10,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
-import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
-public class JohnsonAndJohnson extends ArrayRandom {
+public class JohnsonAndJohnson {
+
   final By NOTIFICATION_DISCLAIMER = By.xpath("//div[@class='disclaimer-button']/input");
   final By SEARCH_BUTTON = By.xpath("//nav[@id='block-searchdropdown']//span[.=' Search ']");
   final By TEXT_FIELD_SEARCH = By.cssSelector("a.link");
@@ -38,7 +38,6 @@ public class JohnsonAndJohnson extends ArrayRandom {
     wait = new WebDriverWait(driver, 10);
     driver.manage().window().maximize();
     driver.navigate().to(url);
-    // wait.until(ExpectedConditions.presenceOfElementLocated(By.id("elementId")));
     driver.findElement(NOTIFICATION_DISCLAIMER).click();  // closing of the warning
     driver.findElement(SEARCH_BUTTON).isDisplayed(); // checking the presence of element on the page
   }
