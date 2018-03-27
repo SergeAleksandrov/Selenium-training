@@ -4,12 +4,15 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.theories.Theories;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.JavascriptExecutor;
 
 import java.util.List;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 
@@ -18,6 +21,7 @@ public class JohnsonAndJohnson {
   final By NOTIFICATION_DISCLAIMER = By.xpath("//div[@class='disclaimer-button']/input");
   final By SEARCH_BUTTON = By.xpath("//nav[@id='block-searchdropdown']//span[.=' Search ']");
   final By TEXT_FIELD_SEARCH = By.cssSelector("a.link");
+  final By KEYWORD_SEARCH = By.xpath("//header/div/div[2]/div/div[1]/nav[2]/ul/li/ul/li[2]/input");
 
   String url = "https://www.ethicon.com/na/education-support/customer-support";
 
@@ -29,7 +33,6 @@ public class JohnsonAndJohnson {
   String digits = "1";
   String specialCharacters = "$";
   WebElement searchingField, editSearch;
-  String invalidInput = "GFT$#@";
 
   @Before
   public void start() {
@@ -93,8 +96,12 @@ public class JohnsonAndJohnson {
       }
     }
     // Verification the correctness of the search (invalid input)
+    String[] array2 = {"TF$%^", "465d", "&^%$", "&j^%$G", "&"};
+    int index = new Random().nextInt(array2.length);
+    String random = (array2[index]);
+    System.out.println(random);
     driver.findElement(By.xpath("//input[@id='edit-keyword']")).clear();
-    driver.findElement(By.xpath("//input[@id='edit-keyword']")).sendKeys(invalidInput);
+    driver.findElement(By.xpath("//input[@id='edit-keyword']")).sendKeys(random);
     driver.findElement(By.xpath("//button[@id='edit-search']")).click();
     if (!driver.findElement(By.xpath("//div[@class='col-xs-12 no-results-message']")).isDisplayed()) {
       Assert.fail("Invalid search result");
@@ -111,6 +118,36 @@ public class JohnsonAndJohnson {
     searchingField.sendKeys(" ");  // Space input in searching field
     driver.findElement(By.cssSelector("button#edit-search.button.js-form-submit.form-submit.btn-primary.btn.icon-before")).click();
     Thread.sleep(5000);
+  }
+
+  @Test
+  public void keywordSearch() throws InterruptedException {
+//    driver.findElement(By.xpath("//nav[@id='block-searchdropdown']//span[.=' Search ']")).click();
+//    driver.findElement(By.xpath("//header/div/div[2]/div/div[1]/nav[2]/ul/li/ul/li[2]/input")).click();
+    String[] array3 = {"Absorbable Hemostat", "The loose knit structured material of SURGICEL®", "FIBRILLAR™", "Sponge to another absorbable", "&^%^%FJGHJGH"};
+    for (int j = 0; j < array3.length; j++) {
+      String keyword = array3[j];
+      driver.findElement(By.xpath("//nav[@id='block-searchdropdown']//span[.=' Search ']")).click();
+      driver.findElement(By.xpath("//header/div/div[2]/div/div[1]/nav[2]/ul/li/ul/li[2]/input")).click();
+      driver.findElement(By.xpath("//header/div/div[2]/div/div[1]/nav[2]/ul/li/ul/li[2]/input")).clear();
+      driver.findElement(By.xpath("//header/div/div[2]/div/div[1]/nav[2]/ul/li/ul/li[2]/input")).sendKeys(keyword);
+      Thread.sleep(2000);
+      driver.findElement(By.xpath("//nav[@id='block-searchdropdown']//i[.='keyboard']")).click();
+
+
+      List<WebElement> searchResults = driver.findElements(By.cssSelector("div.col-xs-12.search-title"));
+
+      for (int i = 0; i < searchResults.size(); i++) {
+        WebElement element = searchResults.get(i);
+        String searchResult = element.getText();
+        //System.out.println(searchResult);
+        if (searchResult.contains(keyword)) {
+          System.out.println("Success");
+        } else {
+          System.out.println("Fail");
+        }
+      }
+    }
   }
 
   @After

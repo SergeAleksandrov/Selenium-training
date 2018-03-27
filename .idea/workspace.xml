@@ -39,8 +39,8 @@
       <file leaf-file-name="JohnsonAndJohnson.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/JohnsonAndJohnson.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1285">
-              <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+            <state relative-caret-position="365">
+              <caret line="146" column="37" lean-forward="true" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -543,7 +543,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JohnsonAndJohnson">
+  <component name="RunManager" selected="JUnit.JohnsonAndJohnson.keywordSearch">
     <configuration name="JohnsonAndJohnson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -558,31 +558,6 @@
       <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.JohnsonAndJohnson" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="JohnsonAndJohnson.NegativeTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="myFirstSeleniumProject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
-      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.JohnsonAndJohnson" />
-      <option name="METHOD_NAME" value="NegativeTesting" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
@@ -632,6 +607,31 @@
       <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
       <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.JohnsonAndJohnson" />
       <option name="METHOD_NAME" value="invalidInputSearchingField" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/java-example" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="JohnsonAndJohnson.keywordSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="myFirstSeleniumProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="myFirstSeleniumProject" />
+      <option name="MAIN_CLASS_NAME" value="myFirstSeleniumProject.JohnsonAndJohnson" />
+      <option name="METHOD_NAME" value="keywordSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -777,18 +777,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.NegativeTesting" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.ProductSpecificationSearch" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.productSpecificationSearch" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.invalidInputSearchingField" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.ProductSpecificationSearch" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.productSpecificationSearch" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.invalidInputSearchingField" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.keywordSearch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.keywordSearch" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.productSpecificationSearch" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.invalidInputSearchingField" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.ProductSpecificationSearch" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.NegativeTesting" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JohnsonAndJohnson.ProductSpecificationSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -806,35 +806,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JohnsonAndJohnson - 2018.03.25 at 22h 12m 18s.xml">
-      <configuration name="JohnsonAndJohnson" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 14m 23s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson - 2018.03.25 at 23h 09m 55s.xml">
-      <configuration name="JohnsonAndJohnson" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 15m 34s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_invalidInputSearchingField - 2018.03.25 at 22h 03m 54s.xml">
-      <configuration name="JohnsonAndJohnson.invalidInputSearchingField" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 16m 08s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_invalidInputSearchingField - 2018.03.25 at 22h 05m 04s.xml">
-      <configuration name="JohnsonAndJohnson.invalidInputSearchingField" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 16m 57s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_invalidInputSearchingField - 2018.03.25 at 22h 11m 16s.xml">
-      <configuration name="JohnsonAndJohnson.invalidInputSearchingField" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 17m 37s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_productSpecificationSearch - 2018.03.25 at 21h 58m 44s.xml">
-      <configuration name="JohnsonAndJohnson.productSpecificationSearch" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 18m 11s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_productSpecificationSearch - 2018.03.25 at 21h 59m 23s.xml">
-      <configuration name="JohnsonAndJohnson.productSpecificationSearch" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 20m 18s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_productSpecificationSearch - 2018.03.25 at 22h 02m 29s.xml">
-      <configuration name="JohnsonAndJohnson.productSpecificationSearch" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 23m 07s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_productSpecificationSearch - 2018.03.25 at 23h 07m 39s.xml">
-      <configuration name="JohnsonAndJohnson.productSpecificationSearch" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 23m 36s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JohnsonAndJohnson_productSpecificationSearch - 2018.03.25 at 23h 08m 36s.xml">
-      <configuration name="JohnsonAndJohnson.productSpecificationSearch" configurationId="JUnit" />
+    <history-entry file="JohnsonAndJohnson_keywordSearch - 2018.03.27 at 12h 24m 09s.xml">
+      <configuration name="JohnsonAndJohnson.keywordSearch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -930,7 +930,7 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="94" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1258,8 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-example/src/test/java/myFirstSeleniumProject/JohnsonAndJohnson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1285">
-          <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+        <state relative-caret-position="365">
+          <caret line="146" column="37" lean-forward="true" selection-start-line="146" selection-start-column="37" selection-end-line="146" selection-end-column="37" />
           <folding />
         </state>
       </provider>
